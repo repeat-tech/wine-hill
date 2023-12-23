@@ -29,7 +29,7 @@ else
     echo "Name=Brick Hill" >> bh.desktop
     echo "Comment=https://brick-hill.com/" >> bh.desktop
     echo "Type=Application" >> bh.desktop
-    echo "Exec=env $HOME/wine-hill.handler.sh '%u'" >> bh.desktop
+    echo "Exec=$HOME/wine-hill.handler.sh '%u'" >> bh.desktop
     echo "MimeType=x-scheme-handler/brickhill.legacy" >> bh.desktop
     echo "Categories=Game;" >> bh.desktop
     sudo mv *.desktop /usr/share/applications
